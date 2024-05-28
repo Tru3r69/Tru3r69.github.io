@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #181a1b;
+    background-color: #2e2e2e; 
     color: #fff;
     margin: 0;
     padding: 0;
@@ -14,16 +14,16 @@ body {
 }
 
 header {
-    background: #333;
+    background: #000;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #77b300 3px solid;
-    text-align: center; /* Başlığı ve menüyü ortala */
+    border-bottom: #FFD700 3px solid;
+    text-align: center;
 }
 
 header h1 {
-    margin-bottom: 20px; /* Resim ile başlık arasına boşluk ekle */
+    margin-bottom: 20px;
 }
 
 header a {
@@ -36,12 +36,12 @@ header a {
 header ul {
     padding: 0;
     list-style: none;
-    text-align: center; /* Menü öğelerini ortala */
+    text-align: center;
 }
 
 header li {
-    display: inline-block; /* Öğeleri yatay hizalamak için */
-    padding: 0 20px; /* Boşluklar ekleyerek öğeleri ayır */
+    display: inline-block;
+    padding: 0 20px;
 }
 
 header nav {
@@ -50,19 +50,18 @@ header nav {
 
 header .highlight,
 header .current a {
-    color: #77b300;
+    color: #FFD700;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #77b300;
+    color: #FFD700;
     font-weight: bold;
 }
 
 section {
     padding: 20px 0;
-    border-bottom: #77b300 1px solid;
-}
+    border-bottom: #FFD700 1px solid;
 
 footer {
     padding: 20px;
@@ -88,19 +87,11 @@ a {
 }
 
 a:hover {
-    color: #77b300;
+    color: #FFD700; 
 }
 
 .project {
     margin-bottom: 20px;
 }
 
-/* Mobil Görünüm */
-@media screen and (max-width: 768px) {
-    header li {
-        float: none;
-        display: block;
-        width: 100%;
-        padding: 10px 0;
-    }
-}
+
